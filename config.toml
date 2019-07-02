@@ -1,0 +1,38 @@
+baseurl = "https://zetton110.github.io/blog/"
+canonifyurls = true
+languageCode = "ja"
+title = "1101001 1110011 1101000 1101111"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/zetton110"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/iWZZuV28Opxz37b"
+
+[params]
+    description = ""
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+    [params.icon]
+    url = "favicon.ico"
+
+[taxonomies]
+tag = "tags"
